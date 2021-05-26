@@ -31,7 +31,7 @@ The [Enhanced Super Resolution Gan (ESRGAN)](https://arxiv.org/abs/1809.00219) i
 3. Generator pre-training -> Better texture, accelerates convergence of the GAN.
 4. No BatchNormalization.
 
-You can use the script [ESRGAN-PyTorch/launch_train.sh](ESRGAN-PyTorch/launch_train.sh) for running training over the competition dataset. The script [ESRGAN-PyTorch/get_submission.py](ESRGAN-PyTorch/get_submission.py) is used for getting a submission once we have the model trained.
+You can use the script [ESRGAN-PyTorch/launch_train.sh](ESRGAN-PyTorch/launch_train.sh) for running training over the competition dataset. The script [ESRGAN-PyTorch/get_submission.py](ESRGAN-PyTorch/get_submission.py) is used for getting a submission once we have the model trained. With this architecture I obtained a **score of 0.90**, thus becoming one of the three first-prize winners of the competition, as there was tails at first position with that score.
 
 ![Alt text](imgs/ESRGAN.png?raw=true "ESRGAN")
 
