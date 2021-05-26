@@ -149,7 +149,7 @@ weights
 
 # Program run create file.
 *.bmp
-*.png
+# *.png
 *.mp4
 *.zip
 *.csv
